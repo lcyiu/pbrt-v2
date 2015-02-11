@@ -1,11 +1,14 @@
 *.pyc
 *~
 .sconsign.dblite
+*.obj
 
 # Build folders:
 src/objs
 src/bin
 src/build
+src/3rdparty/clapack
+pbrt-scenes
 
 # Common renderer output file:
 pbrt.exr

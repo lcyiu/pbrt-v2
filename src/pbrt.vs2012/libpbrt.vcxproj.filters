@@ -121,6 +121,12 @@
     <Filter Include="Source Files\3rdparty\tiff-3.9.4">
       <UniqueIdentifier>{cb4e6ae4-62ac-4eb3-afbd-99ce385b8ee3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\samplers\mdas">
+      <UniqueIdentifier>{85f5ea8a-bf43-4dee-a138-a3046b5581e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\samplers\mdas">
+      <UniqueIdentifier>{28ad0622-0830-47f3-8b2a-a675dd29220b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\3rdparty\ilmbase-1.0.2\half.h">
@@ -912,6 +918,33 @@
     <ClInclude Include="..\core\targa.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\shapes\Wavefront.h">
+      <Filter>Header Files\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\textures\divide.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\samplers\bbox.h">
+      <Filter>Header Files\samplers\mdas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\samplers\bsphere.h">
+      <Filter>Header Files\samplers\mdas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\samplers\global.h">
+      <Filter>Header Files\samplers\mdas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\samplers\heap.h">
+      <Filter>Header Files\samplers\mdas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\samplers\kdtree.h">
+      <Filter>Header Files\samplers\mdas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\samplers\mt.h">
+      <Filter>Header Files\samplers\mdas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\samplers\vector.h">
+      <Filter>Header Files\samplers\mdas</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\3rdparty\ilmbase-1.0.2\half.cpp">
@@ -1681,6 +1714,33 @@
     </ClCompile>
     <ClCompile Include="..\core\targa.c">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shapes\Wavefront.cpp">
+      <Filter>Source Files\shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\textures\divide.cpp">
+      <Filter>Source Files\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\samplers\samoa_image.cpp">
+      <Filter>Source Files\samplers\mdas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\samplers\samoa2.cpp">
+      <Filter>Source Files\samplers\mdas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\samplers\sbbox.cpp">
+      <Filter>Source Files\samplers\mdas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\samplers\sbsphere.cpp">
+      <Filter>Source Files\samplers\mdas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\samplers\sheap.cpp">
+      <Filter>Source Files\samplers\mdas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\samplers\skdtree.cpp">
+      <Filter>Source Files\samplers\mdas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\samplers\svector.cpp">
+      <Filter>Source Files\samplers\mdas</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
